@@ -1,4 +1,4 @@
-package main
+package one
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 	"unicode"
 )
 
-func main() {
-	file, err := os.Open("one.txt")
+func One() {
+	file, err := os.Open("one/one.txt")
 	if err != nil {
 		log.Fatalf("Error reading file: %s", err)
 	}
