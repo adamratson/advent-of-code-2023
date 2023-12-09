@@ -1,7 +1,7 @@
 package main
 
-import "ratson/aoc-23/one"
+import "ratson/aoc-23/two"
 
 func main() {
-	one.Two()
+	two.Two()
 }
